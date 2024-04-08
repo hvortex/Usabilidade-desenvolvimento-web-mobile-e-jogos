@@ -25,14 +25,17 @@ body{
     h1 {
         font-size: 32px;
     }
+    sub {
+        font-size: 20px;
+    }
     #pc {
         border: 3px solid rgb(15, 194, 218);
         height: 300px;
     }
-    h2 {
+    h3 {
         background-color: #fff;
     }
-    h2 img{
+    h3 img{
         max-width:200px;
         max-height:150px;
         width: auto;
