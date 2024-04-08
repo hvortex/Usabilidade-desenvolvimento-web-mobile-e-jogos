@@ -1,0 +1,45 @@
+body{
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 20;
+    margin: 20;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        background-color: #fff;
+    }
+    ul li {
+        margin: 12px;
+    }
+    ul li a {
+        color: blue;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    ul li a:hover {
+        color: rgb(15, 150, 76);
+    }
+    h1 {
+        font-size: 32px;
+    }
+    #pc {
+        border: 3px solid rgb(15, 194, 218);
+        height: 300px;
+    }
+    h2 {
+        background-color: #fff;
+    }
+    h2 img{
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+    footer {
+        padding: 20px;
+        border-top:1px solid #666;
+        margin: 20px;
+    }

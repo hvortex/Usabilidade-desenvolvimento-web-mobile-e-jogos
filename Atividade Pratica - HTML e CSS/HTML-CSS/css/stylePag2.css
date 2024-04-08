@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    background-color: #fff;
+}
+ul li {
+    margin: 12px;
+}
+ul li a {
+    color: blue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+ul li a:hover {
+    color: rgb(15, 150, 76);
+}
+#Saudação {
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+ul {
+    text-align: justify;
+    text-justify: auto;
+}
+#p{
+    text-align: left;
+}
+#Cor{
+    text-align: left;
+}
+#a{
+    -webkit-text-fill-color: rgb(18, 138, 146);
+    text-align: left;
+}
+#b{
+    -webkit-text-fill-color: yellow;
+    text-align: left;
+}
+footer{
+    text-align: center;
+}
