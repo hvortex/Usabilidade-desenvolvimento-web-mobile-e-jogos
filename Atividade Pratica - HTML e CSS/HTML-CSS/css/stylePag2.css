@@ -2,51 +2,102 @@ body {
     font-family: sans-serif;
     text-align: center;
     color: white;
-    background-color: #333;
-    padding: 0;
-    margin: 0;
+    background-color: rgb(49, 30, 30);
+    padding: 20px;
+    margin: 20px;
 }
+
 nav ul{
     display: flex;
-    background-color: #fff;
+    list-style: none;
+    justify-content: center;
 }
+
 ul li {
-    margin: 12px;
+    margin: 1px;
 }
+
 ul li a {
     color: blue;
     text-decoration: none;
     transition: 0.5s;
 }
-ul li a:hover {
-    color: rgb(15, 150, 76);
+
+ul.nav { 
+    margin:0; 
+    padding:0;
 }
+
+ul.nav li {
+    list-style:none;	
+    display:inline;
+}
+
+ul.nav li a {
+    float:left;
+    border:3px solid gray;
+    width:6.0em;
+    font: 1.3em Verdana, Arial, Helvetica, 
+    sans-serif;
+    background: white;
+    color:rgb(49, 30, 30);
+    text-align:center;
+    padding:0  0.2em 0.2em  0;
+    text-decoration:none;
+}
+
+ul.nav a:hover{
+    background:white;
+    color: rgb(49, 30, 30);
+    border-color: rgb(156, 155, 155);
+}
+
 #Saudação {
+    text-align: center;
     color: white;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.longo {
+    text-align: left;
+    margin: 30px;
+}
+
+h3 {
+    text-align: left;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
 }
+
 ul {
     text-align: justify;
     text-justify: auto;
 }
+
 #p{
     text-align: left;
 }
+
 #Cor{
     text-align: left;
 }
+
 #a{
     -webkit-text-fill-color: rgb(18, 138, 146);
     text-align: left;
 }
+
 #b{
     -webkit-text-fill-color: yellow;
     text-align: left;
 }
+
 footer{
+    background-color: #fff;
     text-align: center;
+    font-size: 20px;
+    -webkit-text-fill-color: rgb(49, 30, 30);
 }
